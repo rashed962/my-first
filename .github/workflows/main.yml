@@ -1,1 +1,22 @@
+on:
+push:
+branches:
+     - master
+
+
+
+
+jobs:
+build:
+
+run-on: ubuntu-latest
+
+steps
+- name: 'Testing Githup action '  
+run: pwd
+
+
+- name: 'Testing printing'  
+run: echo Rashed
+
 

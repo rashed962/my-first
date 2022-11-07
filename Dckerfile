@@ -1,0 +1,9 @@
+FROM openjdk
+
+WORKDIR /application 
+
+COPY rashed.java .
+
+RUN javac rashed.java
+
+CMD java rashed
