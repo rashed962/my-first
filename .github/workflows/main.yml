@@ -11,8 +11,8 @@ build:
 
 run-on: ubuntu-latest
 
-steps
-- name: 'Testing Githup action '  
+steps:
+- name: 'Testing Githup action'  
 run: pwd
 
 
